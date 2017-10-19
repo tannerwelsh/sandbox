@@ -1,0 +1,14 @@
+textarea {
+  width: 30%;
+  min-height: 300px;
+  font-family: Courier;
+  display: inline-block;
+}
+
+#output {
+  width: 50%;
+  background-color: black;
+  color: white;
+  min-height: 300px;
+  display: inline-block;
+}

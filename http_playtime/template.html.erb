@@ -1,0 +1,31 @@
+<html>
+  <head>
+
+  </head>
+  <body>
+    <h1>Simple Ruby HTTP Server</h1>
+
+    <hr>
+
+    <h2>Environment Information</h2>
+    <div style="width: 80%; margin: 0 auto;">
+      <table>
+        <tr>
+          <th>ENV Variable</th>
+          <th>Value</th>
+        </tr>
+        <% ENV.each do |key, value| %>
+          <tr>
+            <td><%= key %></td>
+            <td><%= value[0, 140] %></td>
+          </tr>
+        <% end %>
+      </table>
+    </div>
+
+    <form action="/" method="post">
+      <input type="text" name="tell_me_something">
+      <input type="submit">
+    </form>
+  </body>
+</html>

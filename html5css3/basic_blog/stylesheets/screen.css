@@ -1,0 +1,66 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* @import compass/reset */
+/* line 8, ../sass/screen.scss */
+body {
+  width: 960px;
+  margin: 15px auto;
+  font-family: Arial, "MS Trebuchet", sans-serif;
+}
+
+/* line 14, ../sass/screen.scss */
+p {
+  margin: 0 0 20px 0;
+}
+
+/* line 18, ../sass/screen.scss */
+p, li {
+  line-height: 20px;
+}
+
+/* line 23, ../sass/screen.scss */
+header#page_header {
+  width: 100%;
+}
+
+/* line 29, ../sass/screen.scss */
+#page_header nav ul, #page_footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 34, ../sass/screen.scss */
+#page_header nav ul li, #page_footer nav ul li {
+  padding: 0;
+  margin: 0 20px 0 0;
+  display: inline;
+}
+
+/* line 42, ../sass/screen.scss */
+section#posts {
+  float: left;
+  width: 74%;
+}
+/* line 46, ../sass/screen.scss */
+section#posts aside {
+  float: right;
+  width: 35%;
+  margin-left: 5%;
+  font-size: 20px;
+  line-height: 40px;
+}
+/* line 55, ../sass/screen.scss */
+section#sidebar {
+  float: left;
+  width: 25%;
+}
+
+/* line 62, ../sass/screen.scss */
+footer#page_footer {
+  clear: both;
+  width: 100%;
+  display: block;
+  text-align: center;
+}

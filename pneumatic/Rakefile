@@ -1,0 +1,11 @@
+require_relative './lib/pneumatic'
+
+require 'rake'
+require 'rspec/core/rake_task'
+
+RSpec::Core::RakeTask.new(:spec)
+
+desc "Open a console session in development environment"
+task :console do
+  exec('pry -r./lib/pneumatic')
+end

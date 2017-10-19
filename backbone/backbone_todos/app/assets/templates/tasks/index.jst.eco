@@ -1,0 +1,5 @@
+<% for task in @tasks.models: %>
+  <div class="task" id="<%= task.get('id') %>">
+    <%= task.get('description') %>
+  </div>
+<% end %>

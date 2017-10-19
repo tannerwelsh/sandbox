@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>form_w_new_input</title>
+		
+		<script src="../lib/jquery-1.6.1.js" type="text/javascript" charset="utf-8"></script>
+		
+				<script src="../html5_and_css3-code/html5forms/jquery.simpleColor.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript">
+          $(function(){
+            
+						function hasColorSupport(){
+							input = document.createElement("input");
+							input.setAttribute("type", "color");
+							var hasColorType = (input.type !== "text");
+							// handle Safari/Chrome partial implementation
+							if(hasColorType){
+								var testString = "foo";
+								input.value=testString;
+								hasColorType = (input.value != testString);
+							}
+							return(hasColorType)
+						}
+						if (!hasColorSupport()){
+							$('input[type=color]').simpleColor();
+						}
+						
+          });
+        </script>
+        
+				<script src="../html5_and_css3-code/html5forms/autofocus.js" type="text/javascript" charset="utf-8"></script>
+				
+	</head>
+
+	<body>
+		<form action="/projects/1" method="post" accept-charset="utf-8">
+			
+			<fieldset id="personal_information">
+				<legend>Project Information</legend>
+				
+				<ol>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" name="name" autofocus id="name" size="30">
+					</li>
+					<li>
+						<label for="priority">Priority</label>
+						<input type="range" name="priority" value="0" id="priority" min="0" max="10">
+					</li>
+					<li>
+						<label for="estimated_hours">Estimated Hours</label>
+						<input type="number" name="estimated_hours" min="0" max="1000" step="10" id="estimated_hours">
+					</li>
+					<li>
+						<label for="start_date">Start Date</label>
+						<input type="date" name="start_date" value="2010-12-01" id="start_date">
+					</li>
+					<li>
+						<label for="email">Email contact</label>
+						<input type="email" name="email" id="email">
+					</li>
+					<li>
+						<label for="url">Staging URL</label>
+						<input type="url" name="url" id="url">
+					</li>
+						<label for="project_color">Project Color</label>
+						<input type="color" name="project_color" id="project_color">
+					<li>
+						<input type="submit" value="Submit">
+					</li>
+				</ol>
+			</fieldset>		
+				
+		</form>
+	</body>
+</html>

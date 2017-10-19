@@ -1,0 +1,49 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*
+  Multi-column layout using the "flexbox method"
+  http://css-tricks.com/fluid-width-equal-height-columns/
+*/
+.two-col {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: start;
+  -webkit-box-align: start;
+
+  display: -moz-box;
+  -moz-box-orient: horizontal;
+  -moz-box-pack: start;
+  -moz-box-align: start;
+
+  display: box;
+  box-orient: horizontal;
+  box-pack: start;
+  box-align: start;
+
+  overflow: hidden;
+}
+
+.two-col .col {
+  width: 46%;
+  padding: 0px 2% 10px 2%;
+}
+
+form {
+  padding: 5px;
+  border: 1px solid #eee;
+}
+
+/*
+  People
+*/
+.person-list .person {
+  border-top: 1px solid #333;
+  padding: 5px 3px;
+}
+
+.person-list .person:first-child {
+  border-top: none;
+}

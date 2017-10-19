@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>Label</key>
+		<string>pneumatic.server</string>
+		<key>ProgramArguments</key>
+		<array>
+			<string>/Users/tannerwelsh/.rbenv/shims/ruby</string>
+			<string>/Users/tannerwelsh/Dev/projects/pneumatic/pneumatic</string>
+			<string>server</string>
+		</array>
+		<key>KeepAlive</key>
+		<true/>
+		<key>StandardOutPath</key>
+		<string>/Users/tannerwelsh/Dev/projects/pneumatic/output.txt</string>
+		<key>StandardErrorPath</key>
+		<string>/Users/tannerwelsh/Dev/projects/pneumatic/errors.txt</string>
+		<key>Sockets</key>
+		<dict>
+			<key>Listeners</key>
+			<dict>
+				<key>SockServiceName</key>
+				<string>7000</string>
+			</dict>
+		</dict>
+	</dict>
+</plist>

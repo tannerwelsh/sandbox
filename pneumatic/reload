@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+launchctl unload pneumatic.server.plist
+launchctl load pneumatic.server.plist

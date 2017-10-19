@@ -1,0 +1,20 @@
+GIT
+  remote: https://github.com/openspectrum/craigslist
+  revision: dbf9e683a9c07d76419bfa9189931a20e60304c1
+  branch: master
+  specs:
+    craigslist (0.1.1)
+      nokogiri (~> 1.6.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile (0.6.0)
+    nokogiri (1.6.2.1)
+      mini_portile (= 0.6.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  craigslist!

@@ -1,0 +1,262 @@
+# Master list of gems to keep local versions of at all times, thus enabling offline development
+# Many of these are taken from the wonderful people at ruby-toolbox.com
+source 'https://rubygems.org'
+
+# Frameworks & libraries
+gem 'rails'
+gem 'backbone-on-rails'
+gem 'jquery-rails'
+gem 'sinatra'
+gem 'rack'
+ 
+# Database Adapters
+gem 'sqlite3'
+gem 'pg'
+
+# Assets
+gem 'sass-rails'
+gem 'sass'
+#gem 'compass'
+gem 'twitter-bootstrap-rails'
+gem 'bootstrap-sass'
+#gem 'bourbon'
+gem 'less'
+
+# Templates
+gem 'jbuilder'
+
+# Testing
+gem 'cucumber'
+#gem 'steak'
+gem 'capybara'
+gem 'rspec'
+gem 'rspec-rails'
+gem 'guard'
+gem 'jasmine'
+
+# Authentication & Authorization
+gem 'devise'
+gem 'cancan'
+gem 'omniauth'
+#gem 'authlogic'
+
+# Web Servers
+gem 'thin'
+gem 'webrat'
+#gem 'passenger'
+gem 'unicorn'
+#gem 'mongrel'
+
+# -- Source: Ruby Toolbox -- #
+
+# A/B Testing
+gem 'vanity'
+#gem 'split'
+
+# Active Record Nesting
+gem 'awesome_nested_set'
+#gem 'ancestry'
+#gem 'acts_as_tree'
+
+# Active Record Versioning
+gem 'paper_trail'
+
+# API Builders
+#gem 'grape'
+gem 'rabl'
+
+# API Clients
+gem 'twitter'
+#gem 'linkedin'
+gem 'fb_graph'
+
+# Background Processing
+gem 'resque'
+#gem 'delayed_job'
+gem 'sidekiq'
+gem 'resque_mailer'
+gem 'whenever'
+#gem 'resque-scheduler'
+
+# Cloud Services
+gem 'fog'
+#gem 'aws-s3'
+#gem 'amazon-ec2'
+
+# Code Metrics
+gem 'simplecov'
+gem 'rails_best_practices'
+
+# Concurrent Processing
+gem 'eventmachine'
+
+# Configuration Management
+gem 'configuration'
+gem 'settingslogic'
+
+# Content Management Systems
+gem 'refinerycms'
+#gem 'browsercms'
+
+# Continuous Integration
+gem 'travis-ci', git: 'git://github.com/travis-ci/travis-ci'
+
+# Debugging
+gem 'better_errors'
+
+# Deployment Automation
+gem 'capistrano'
+gem 'heroku'
+
+# Documentation Generators
+gem 'rdoc'
+
+# EMail Preview
+gem 'letter_opener'
+#gem 'mailcatcher'
+
+# EMail Processing
+gem 'mailman'
+
+# Encryption
+gem 'attr_encrypted'
+gem 'strongbox'
+
+# Exception Handling
+#gem 'exception_notification'
+
+# Geocoding & Maps
+#gem 'geocoder'
+
+# Git Tools
+gem 'grit'
+gem 'git'
+
+# Graphing
+#gem 'lazy_high_charts', git: 'git://github.com/michelson/lazy_high_charts'
+#gem 'googlecharts'
+#gem 'gruff'
+
+# HTML Parsing
+gem 'nokogiri'
+
+# HTTP Clients
+gem 'rest-client'
+gem 'httparty'
+#gem 'faraday'
+
+# I18n
+gem 'i18n'
+gem 'globalize3'
+
+# Inline CSS for EMail
+gem 'premailer'
+gem 'premailer-rails3'
+
+# IRB Alternatives
+gem 'pry'
+
+# IRB Tools
+#gem 'awesome_print'
+#gem 'hirb'
+
+# JavaScript Runtimes
+gem 'execjs'
+gem 'therubyracer'
+gem 'libv8', '~> 3.11.8' # dependency of therubyracer
+
+# JavaScript Tools
+gem 'sprockets'
+gem 'uglifier'
+gem 'coffee-script'
+gem 'coffee-rails'
+gem 'gon'
+
+# JSON Parsers
+gem 'json'
+#gem 'multi-json'
+#gem 'json_pure'
+
+# Markup Processors
+gem 'markup'
+gem 'RedCloth'
+gem 'redcarpet'
+
+# Mocking
+gem 'rspec-mocks'
+#gem 'mocha'
+
+# Mocking Web Requests
+gem 'webmock'
+#gem 'vcr'
+gem 'fakeweb'
+
+# Multitenancy
+gem 'acts_as_tenant'
+gem 'apartment'
+
+# Natural Language Date Parsing
+gem 'chronic'
+
+# Object Relational Mapping
+gem 'sequel'
+
+# Rails Activity Feeds
+gem 'public_activity', '0.5.1'
+
+# Rails Admin Interfaces
+gem 'activeadmin'
+gem 'rails_admin'
+
+# Rails Comments
+gem 'acts_as_commentable_with_threading', git: 'git://github.com/elight/acts_as_commentable_with_threading'
+gem 'acts_as_commentable'
+
+# Rails DB Bootstrapping
+gem 'seed-fu'
+
+# Rails Fixture Replacement
+gem 'factory_girl'
+
+# Rails Form Builders
+gem 'formtastic'
+gem 'simple_form'
+
+# Rails In Place Editing
+gem 'best_in_place'
+
+# Rails Permalinks & Slugs
+gem 'friendly_id'
+gem 'stringex'
+
+# Rails Search
+#gem 'sunspot'
+gem 'tire'
+gem 'squeel'
+
+# Rails Tagging
+gem 'acts-as-taggable-on'
+
+# Redis Clients
+gem 'redis'
+gem 'redis-store'
+
+# SOAP Clients
+gem 'savon'
+
+# State Machines
+gem 'state_machine'
+
+# Static Site Generators
+gem 'jekyll'
+
+# Template Engines 
+gem 'haml'
+gem 'mustache'
+
+# User Agent Detection
+gem 'useragent'
+
+# User Messaging Systems
+gem 'mailboxer'
+
