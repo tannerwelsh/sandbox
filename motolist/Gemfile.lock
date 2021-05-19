@@ -9,9 +9,9 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    mini_portile (0.6.0)
-    nokogiri (1.6.2.1)
-      mini_portile (= 0.6.0)
+    mini_portile2 (2.1.0)
+    nokogiri (1.6.8.1)
+      mini_portile2 (~> 2.1.0)
 
 PLATFORMS
   ruby
